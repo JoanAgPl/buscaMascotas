@@ -7,5 +7,5 @@
 4. abrir postman y usar una de las siguientes peticiones:
 - POST localhost:8000/api/registro?userName=*(nombre)*&password=*(contraseña)*&email=*(email)*
 - GET localhost:8000/api/login?userName=*(nombre)*&password=*(contraseña)*
-- POST localhost:8000/api/rMascotas?mascotName=*(nombre)*&description==*(descripción detallada)*
+- POST localhost:8000/api/rMascotas?mascotName=*(nombre)*&description=*(descripción detallada)*
 > algunas peticiones sólo funcionarán si se usa primero la petición "sign-up" o "login" y se recupera el token
